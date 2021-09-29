@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(65deg, rgb(122, 202, 255), #BEB9E5, rgb(126, 167, 255), rgb(122, 135, 255), #b8afff);
+    padding: 50px;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.back-circle{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    transform: translate(-30%, -30%);
+    background-color: #9480ec3b;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px #9a75b9;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+    backdrop-filter: blur(6px) saturate(480%);
+}
+.back-circle-2{
+    top: 70%;
+    left: 30%;
+    width: 700px;
+    height: 700px;
+    background-color: #9a75b95e;
+    box-shadow: 0px 0px 100px #7b4c81;
+    backdrop-filter: blur(6px) saturate(180%);
+}
+.back-circle-3{
+    top: 40%;
+    left: 90%;
+    background-color: #75b1b988;
+}
+.content{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 36px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 1% 10%;
+}
+nav{
+    margin: 0px auto;
+    width: 90%;
+    /* padding: 10% 15%; */
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+}
+.navbar-nav li{
+    margin-left: 12px
+}
+#top-section{
+    padding-top: 70px;
+}
+.btn{
+    margin-top: 10px;
+    background-color: #b8afff;
+    border-color: #b9afff;
+    color: white;
+}
+.btn:hover{
+    background-color: #c7c0ff;
+}
+.right-button{
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #a194ff;
+}
+.kartikey-photu{
+    width: 80%;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.image-ke-peeche{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 40px solid;
+    border-radius: 50%;
+    border-color: #BEB9E5;
+}
+.col-left, .col-right{
+    padding: 0%;
+    position: relative;
+    overflow: hidden;
+}
+.vertical-beech{
+    position: absolute;
+    top: 40%;
+    transform: translate(30%, -40%);
+}
+.col-left h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+.col-left p{
+    font-size: 50px;
+    font-weight: 600;
+}
+#about-section{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 30px;
+}
